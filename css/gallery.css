@@ -1,0 +1,99 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub .s-mid {
+       margin-top: 7px !important;
+}
+.gal-box .g1{
+	width:23%;
+}
+.gal-box .g1 .g-con img{
+	width:100%!important;
+	height:200px;
+}
+.gal-box .g1 .g-con h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 10px 12px 0px;
+    text-transform: capitalize;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+}
+.gal-box .g1 .g-con p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 140%;
+    height: 50px;
+	padding:0;
+}
+.gal-box .g1 .g-con hr{
+    margin: 0;
+    width: 60px;
+    margin-bottom: 8px;
+    margin-top: -7px;
+    opacity: 1;
+    height: 2px;
+    background: #ccc;
+}
+.gal-box .g1 .g-con a {
+    color: #E63C59;
+    font-size: 16px;
+    border-bottom: 1px solid;
+}
+.g-ban{
+background:url(../images/service.jpeg)no-repeat left top rgba(0,0,0,0.5);
+	background-blend-mode:multiply;
+	height: 230px;
+	width:100%;
+	background-size: 100%;
+	position:relative;
+	}
+	.g-ban ul{
+		margin:0;
+		padding:0;
+	}
+	
+	/* Responsive css for Mobile */
+@media only screen and (min-width:320px) and (max-width:767px){
+
+body{
+	overflow-x:hidden;
+}
+.container{
+	width:320px!important;
+	margin:0 auto;
+}
+.gal-box .g1 {
+    width: 100%;
+    margin: 0 auto;
+}
+}
+
+
+/* Responsive css for Tablet */
+@media only screen and (min-width:768px) and (max-width:990px){
+
+body{
+	overflow-x:hidden;
+}
+.container{
+	width:750px!important;
+	margin:0 auto;
+}
+.gal-box .g1 {
+    width: 47%;
+}
+}
